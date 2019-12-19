@@ -1,4 +1,4 @@
-function loadFbSDK(options) {
+function gpFbSDK(options) {
   window.fbAsyncInit = function() {
     FB.init({
       appId: "366484310574194",
@@ -24,3 +24,5 @@ function loadFbSDK(options) {
     fjs.parentNode.insertBefore(js, fjs);
   })(document, "script", "facebook-jssdk");
 }
+
+module.exports.gpFbSDK = gpFbSDK;
