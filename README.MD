@@ -4,10 +4,16 @@ Load facebook sdk for your custom functions
 
 # installation
 
-`npm i gpfbsdk --save`
+`npm i gpcoders-fb --save`
 
 Then...
 
 ```
-import { gpFbSdk } from 'gpFbSdk';
+import gpsdk from 'gpcoders-fb';
+
+class GpCoders extends Component {
+    componentDidMount() {
+        gpsdk({client_id: xxxxxxx});
+    }
+}
 ```

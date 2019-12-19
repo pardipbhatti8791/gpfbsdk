@@ -1,7 +1,7 @@
 function gpFbSDK(options) {
   window.fbAsyncInit = function() {
     FB.init({
-      appId: "366484310574194",
+      appId: options.client_id,
       autoLogAppEvents: true,
       xfbml: true,
       version: "v2.11"
@@ -25,4 +25,4 @@ function gpFbSDK(options) {
   })(document, "script", "facebook-jssdk");
 }
 
-module.exports.gpFbSDK = gpFbSDK;
+module.exports = gpFbSDK;
