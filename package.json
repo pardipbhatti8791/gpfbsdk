@@ -1,0 +1,19 @@
+{
+  "name": "gpfbsdk",
+  "version": "1.0.0",
+  "description": "Load facebook sdk for your custom functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pardipbhatti8791/gpfbsdk.git"
+  },
+  "author": "Gagudeep",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pardipbhatti8791/gpfbsdk/issues"
+  },
+  "homepage": "https://github.com/pardipbhatti8791/gpfbsdk#readme"
+}
