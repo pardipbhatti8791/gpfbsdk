@@ -4,7 +4,7 @@ function gpFbSDK(options) {
       appId: options.client_id,
       autoLogAppEvents: true,
       xfbml: true,
-      version: "v2.11"
+      version: "v5.0"
     });
 
     // Broadcast an event when FB object is ready
